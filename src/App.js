@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar/>
+        <h2>RETRO CLUB VHS</h2>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
