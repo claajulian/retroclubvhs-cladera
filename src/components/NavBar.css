@@ -1,13 +1,18 @@
 .nav-main {
-    color: green;
-    /* display: flex; */
-    align-items: center;
-    padding: 2px;
-    text-decoration: underline;
+    color: greenyellow;
     font-size: 20px;
-    justify-content: space-around;
-    display: inline;
-    list-style-type: none;
+  
     
     
 }
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+
+    
+}
+
