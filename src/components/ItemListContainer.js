@@ -27,7 +27,7 @@ export default function ItemListContainer(props) {
     <div>{props.greeting}
       <br></br>
       <ItemCount stock={5} initial={1} />
-      <ItemList items={products}/>
+      <ItemList items={products} />
     </div>
   )
 }
