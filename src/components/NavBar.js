@@ -17,10 +17,10 @@ function NavBar() {
                     <Link to="/"> Home </Link>
                 </li>
                 <li>
-                     <Link href="/item"> Movies </Link>
+                     <Link to="/item"> Movies </Link>
                 </li>
                 <li>
-                    <Link href="/category/terror"> Terror </Link>
+                    <Link to="/category/terror"> Terror </Link>
                 </li>
                 <CartWidget />
                 
