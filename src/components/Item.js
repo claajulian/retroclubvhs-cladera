@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Item({ item }) {
   console.log(item);
 
-  const urlDetalle = `/detalle/${item.id}`
+  const urlDetalle = `/item/${item.id}`
   return (
     <div>
       <div>
@@ -13,7 +13,8 @@ function Item({ item }) {
       <div>
         <h2>{item.name}</h2>
         <h2> $ {item.precio}</h2>
-        <Link to={urlDetalle}>
+
+        <Link to={ urlDetalle }>
           <button>Ver detalle</button>
         </Link>
       </div>

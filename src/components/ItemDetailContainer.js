@@ -16,8 +16,8 @@ export default function ItemDetailContainer(props) {
     const traerProducto = new Promise((res, rej) => {
       setTimeout(() => {
         let idNum = parseInt(id);
-        const itemFound = productos.find( detalle => {
-          return detalle.id === parseInt(id)
+        const itemFound = productos.find( movie => {
+          return movie.id === idNum
         })
         res(itemFound)
       }, 2000)

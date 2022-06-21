@@ -13,11 +13,17 @@ function NavBar() {
     return (
         <nav className="nav-main">
             <ul className="nav-list">
-                <a href="/"> Home </a>
-                <Link to="/"> Home </Link>
-                <Link href="/detalle"> Detalle </Link>
-                <a href="/"> Categoria B </a>
+               <li>
+                    <Link to="/"> Home </Link>
+                </li>
+                <li>
+                     <Link href="/item"> Movies </Link>
+                </li>
+                <li>
+                    <Link href="/category/terror"> Terror </Link>
+                </li>
                 <CartWidget />
+                
             </ul>
         </nav>
     )

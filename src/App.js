@@ -15,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<ItemListContainer greeting="Bienvenidos a Retro Club VHS" />} />
             <Route path="/item/:id" element={<ItemDetailContainer greeting="Detalle del producto" />} />
+            <Route path="/category/:categoryId" element={<ItemListContainer greeting="Categoria de items" />} />
 
           </Routes>
         </BrowserRouter>
